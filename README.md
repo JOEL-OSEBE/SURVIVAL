@@ -43,6 +43,6 @@ Setting the Death_to_Burial attribute as the duration parameter and observation 
 Among these, the random forest classifier algorithm that had the higher accuracy score of 0.78 was selected to predict the burial events that would need fundraising.
 The following is the resultant cross tabulation table:
 ##### Cross Tabulation Table
-![Cross Tabulation table](https://github.com/JOEL-OSEBE/SURVIVAL/blob/master/Screenshot%20(33).png)
+![Cross Tabulation table](https://github.com/JOEL-OSEBE/SURVIVAL/blob/master/Screenshot%20(38).png)
 * In this study, our dependent variable that is to be predicted is the fundraising attribute. Considering the fundraising attribute, the presence of entries with missing values were sliced and used as the predicted dataframe or else be in the original training dataframe. The train dataframe was then used to train the model.
 * To avoid overfitting, cross-validation was performed by splitting the original train dataframe further into the actual train and validation test dataframes then trained the model while setting the number of trees (n_estimators) to 500 to increase the accuracy of the model. Thereafter, the fundraising attribute from the original test dataframe was predicted.
