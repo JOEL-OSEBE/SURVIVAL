@@ -27,7 +27,7 @@ Below is the box plot after the truncation of negative values:
 ![Box Plot after Truncation](https://github.com/JOEL-OSEBE/SURVIVAL/blob/master/output_21_0.png)
 ## KAPLAN-MEIER
 * The survival analysis conducted was on the impact the survived spouse as per the gender will have on the number of days taken to bury an individual. Labels of Spouse_gender were encoded into 1 and 0 i.e. Male = 1 , Female = 0. This was to work with the lifelines Kaplan Meier library. 
-Setting the Death_to_Burial attribute as the duration parameter and observation of the event being the gender of the spouse, I plotted the Kaplan Meier curve respectively to the gender as follows:
+Setting the Death_to_Burial attribute as the duration parameter and observation of the event being the gender of the spouse, the Kaplan Meier curve was plotted respectively to gender as follows:
 #### Kaplan Meier Plot for Surviving Female Spouse:
 ![Kaplan Meier Plot for Female Spouse](https://github.com/JOEL-OSEBE/SURVIVAL/blob/master/output_39_0.png)
 #### Kaplan Meier Plot for Surviving Male Spouse:
