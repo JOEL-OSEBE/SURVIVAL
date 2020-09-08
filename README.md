@@ -19,7 +19,7 @@ The following tools were used:
 With the focus of my study being on “the impact that the gender of the spouse will have on the number of days taken from death to burial of the deceased”, the dataframe was sliced to have the appropriate attributes. Thereafter, missing values were checked and filled as per the mode of the dataframe features. This was to make sure that the imputed values lied within the distribution of the general data. 
 * The data types were then converted appropriately. Since it would be a classification kind of study, converting objects to categories and numerical data type was appropriate. 
 #### Box Plot of Days to Burial:
-Using the box plot, I checked for the outlying “Death_to_Burial” values as follows:
+The box plot was used to check for the outlying “Death_to_Burial” values as follows:
 ![Box Plot of Days to Burial](https://github.com/JOEL-OSEBE/SURVIVAL/blob/master/output_19_0.png)
 * Since this attribute is the number of days from death to burial, having a negative number of days would be inapplicable, and assuming them into positive values would impact on the accuracy of the results. Therefore, I truncated the negative values below zero and used the new dataframe for the Kaplan-Meier survival curve. 
 Below is the box plot after the truncation of negative values.
