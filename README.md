@@ -35,7 +35,7 @@ Setting the Death_to_Burial attribute as the duration parameter and observation 
 * Below is a comparison of the two observations as per the plot below:
 #### COMPARISON OF KAPLAN MEIER PLOTS BY SURVIVING SPOUSE GENDER:
 ![Comparison of Kaplan Meier Plots Per Gender](https://github.com/JOEL-OSEBE/SURVIVAL/blob/master/output_40_0.png)
-* The result shows that there is a higher probability for the deceased survived by a male spouse to be buried after a longer time than the ones that are survived by female spouses
+* The result shows that there is a higher probability for the deceased survived by a male spouse to be buried after a longer time than the ones that are survived by female spouses.
  The result shows that the probability that a survived male spouse would bury their deceased loved ones after a long time is higher as compared to the survived female spouses. 
 * For example, the probability of burial after 20 days for the survived female spouses is < 0.2, while for survived male spouses is > 0.2.
 # RANDOM FOREST CLASSIFIER
